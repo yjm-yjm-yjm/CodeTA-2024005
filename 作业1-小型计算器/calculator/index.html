@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>简易计算器 - 陈静</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="box">
+    <h2>计算器</h2>
+    <input type="text" id="screen" value="0" readonly>
+    <div class="keys">
+      <button onclick="clearAll()">C</button>
+      <button onclick="del()">⌫</button>
+      <button onclick="op('/')">÷</button>
+      <button onclick="op('*')">×</button>
+      <button onclick="num('7')">7</button>
+      <button onclick="num('8')">8</button>
+      <button onclick="num('9')">9</button>
+      <button onclick="op('-')">−</button>
+      <button onclick="num('4')">4</button>
+      <button onclick="num('5')">5</button>
+      <button onclick="num('6')">6</button>
+      <button onclick="op('+')">+</button>
+      <button onclick="num('1')">1</button>
+      <button onclick="num('2')">2</button>
+      <button onclick="num('3')">3</button>
+      <button onclick="equal()">=</button>
+      <button onclick="num('0')">0</button>
+      <button onclick="num('.')">.</button>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
